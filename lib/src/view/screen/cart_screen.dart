@@ -74,7 +74,7 @@ class CartScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 5),
                     Text(
-                      controller.getCurrentSize(product),
+                      controller.getCurrentSizeOfProduct(product),
                       style: TextStyle(
                         color: Colors.black.withOpacity(0.5),
                         fontWeight: FontWeight.w400,
