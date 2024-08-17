@@ -134,7 +134,7 @@ class ProductController extends GetxController {
     update();
   }
 
-  String getCurrentSize(Product product) {
+  String getCurrentSizeOfProduct(Product product) {
     String currentSize = "";
     if (product.sizes?.categorical != null) {
       for (var element in product.sizes!.categorical!) {
